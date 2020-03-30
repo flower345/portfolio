@@ -6,10 +6,10 @@ $(document).ready(function(){
 
 		if(scroll>0){
 			$('#header').css({'background':'linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);'});
-            $('#header>.menu>li>a').css({'color':'#191970'});
+            $('#header>.menu>li>a').css({'color':'#fff'});
 		}else{
 			$('#header').css({'background':'#c2e9fb'});
-            $('#header>.menu>li>a').css({'color':'#fff'});
+            $('#header>.menu>li>a').css({'color':'#191970'});
 		}
 	});
 
@@ -21,7 +21,7 @@ $(document).ready(function(){
 
 	$('#header').on('mouseleave', function(){
 		$(this).css({'background':'#c2e9fb'});
-        $('.menu>li>a').css({'color':'#fff'});
+        $('.menu>li>a').css({'color':'#191970'});
     });
     
     var menu = $("#header>.menu>li");
