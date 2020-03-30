@@ -363,7 +363,7 @@ a {
 #contents>.con3>.box2>.box2-1 .img {
     width:100%;
     height:100%;
-    background: url(img/grazia.png) no-repeat;
+    background: url(img/grazia.PNG) no-repeat;
     background-size: cover;
     position:absolute;
     top:10%;
@@ -431,7 +431,7 @@ a {
 #contents>.con3>.box3>.box3-1 .img {
     width:100%;
     height:100%;
-    background: url(img/godiva.png) no-repeat;
+    background: url(img/godiva.PNG) no-repeat;
     background-size: cover;
     position:absolute;
     top:10%;
@@ -498,7 +498,7 @@ a {
 #contents>.con3>.box4>.box4-1 .img {
     width:100%;
     height:100%;
-    background: url(img/paris_baguette.png) no-repeat;
+    background: url(img/paris_baguette.PNG) no-repeat;
     background-size: cover;
     position:absolute;
     top:10%;
@@ -566,7 +566,7 @@ a {
 #contents>.con3>.box5>.box5-1 .img {
     width:100%;
     height:100%;
-    background: url(img/bt21.png) no-repeat;
+    background: url(img/bt21.PNG) no-repeat;
     background-size: cover;
     position:absolute;
     top:10%;
