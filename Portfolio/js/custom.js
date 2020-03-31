@@ -5,23 +5,23 @@ $(document).ready(function(){
 		var scroll = $(this).scrollTop();
 
 		if(scroll>0){
-			$('#header').css({'background':'linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);'});
+			$('#header').css({'background':'#FFAC9C'});
             $('#header>.menu>li>a').css({'color':'#fff'});
 		}else{
-			$('#header').css({'background':'#c2e9fb'});
-            $('#header>.menu>li>a').css({'color':'#191970'});
+			$('#header').css({'background':'none'});
+            $('#header>.menu>li>a').css({'color':'#000'});
 		}
 	});
 
 
 	$('#header').on('mouseover', function(){
-		$(this).css({'background':'linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%)'});
+		$(this).css({'background':'#FFAC9C'});
         $('.menu>li>a').css({'color':'#fff'});
 	});
 
 	$('#header').on('mouseleave', function(){
-		$(this).css({'background':'#c2e9fb'});
-        $('.menu>li>a').css({'color':'#191970'});
+		$(this).css({'background':'none'});
+        $('.menu>li>a').css({'color':'#000'});
     });
     
     var menu = $("#header>.menu>li");
