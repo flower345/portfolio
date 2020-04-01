@@ -629,7 +629,7 @@ a {
 }
 
 .footerWrap {
-       background: #ccc;
+    background: #ccc;
     padding:10px 0;
 }
 
@@ -652,7 +652,7 @@ a {
 }
 
 .footerWrap > footer > .b_name {
-    width:10%;
+    width:15%;
     height:50px;
     float:left;
 }
@@ -660,7 +660,8 @@ a {
 .footerWrap > footer > .b_name > img {
     width:100%;
     height:100%;
-    margin-left: 450px;
+    margin-left: 520px;
+    margin-top: 25px;
 }
 
 .footerWrap > p {
